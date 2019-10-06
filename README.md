@@ -1,2 +1,2 @@
 # HTML-Parser
-Parses HTML input files and implements a stack data structure to test for appropriate opening and closing tags. If the file is improperly formatted, outputs an error message.
+Parses HTML input files and implements a stack data structure to test for appropriate opening and closing tags. As the file is read, tags are pushed onto the stack. When the corresponding closing tags are read, the opening tags are popped off. If the file is improperly formatted, outputs an error message. Otherwise, the stack will be empty and the file would have been properly formatted.
